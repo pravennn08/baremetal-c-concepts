@@ -114,4 +114,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-07 -->
+<!-- daily-concept-index: 7 -->
+## 2026-09-07 — Function Pointers and Callbacks
+
+**Core question:** How to implement flexible, runtime-dynamic behavior?
+
+**Things to check:**
+
+- What's the syntax for declaring function pointers?
+- How to create arrays of function pointers?
+- What are the security implications of function pointers?
+- How to pass context to callbacks?
+
+**Exercise:** Implement a generic sorting function that accepts a comparison function pointer. Sort an array of structs by different fields.
+
+**My notes:**
+
 - 
