@@ -133,4 +133,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-08 -->
+<!-- daily-concept-index: 8 -->
+## 2026-09-08 — Static and Dynamic Linking
+
+**Core question:** What happens between compilation and execution?
+
+**Things to check:**
+
+- How do static libraries differ from shared libraries?
+- What is the role of the dynamic linker?
+- How to handle symbol resolution conflicts?
+- How to create and use a shared library in C?
+
+**Exercise:** Create a static library and a shared library from the same source. Build executables linking each and compare their sizes and behavior.
+
+**My notes:**
+
 - 
