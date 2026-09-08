@@ -152,4 +152,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-09 -->
+<!-- daily-concept-index: 9 -->
+## 2026-09-09 — Signal Handling
+
+**Core question:** How to handle asynchronous events gracefully?
+
+**Things to check:**
+
+- Which signals can be caught and which cannot?
+- What functions are async-signal-safe?
+- How to avoid race conditions in signal handlers?
+- What is the difference between signal and sigaction?
+
+**Exercise:** Write a program that catches SIGINT, prints a message, and continues. Then add a SIGALRM handler that sets a flag polled in the main loop.
+
+**My notes:**
+
 - 
