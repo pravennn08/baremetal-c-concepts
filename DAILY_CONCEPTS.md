@@ -171,4 +171,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-10 -->
+<!-- daily-concept-index: 10 -->
+## 2026-09-10 — File Descriptors and I/O
+
+**Core question:** How does the kernel manage open files?
+
+**Things to check:**
+
+- What's the difference between buffered and unbuffered I/O?
+- How do dup, dup2, and fcntl work?
+- What are the file descriptor flags?
+- How to implement non-blocking I/O?
+
+**Exercise:** Implement a simple program that reads from stdin, writes to stdout, and handles redirection. Then add a custom file copy function using read/write with various buffer sizes.
+
+**My notes:**
+
 - 
