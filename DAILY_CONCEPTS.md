@@ -190,4 +190,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-11 -->
+<!-- daily-concept-index: 11 -->
+## 2026-09-11 — Process Creation and Fork
+
+**Core question:** What exactly happens when fork is called?
+
+**Things to check:**
+
+- What is copy-on-write and why does it matter?
+- How to avoid zombie processes?
+- What is the difference between fork, vfork, and clone?
+- How to share file descriptors between processes?
+
+**Exercise:** Write a program that forks a child process. The parent waits for the child, which executes a different code path. Add pipes for inter-process communication.
+
+**My notes:**
+
 - 
