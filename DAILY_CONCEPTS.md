@@ -209,4 +209,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-12 -->
+<!-- daily-concept-index: 12 -->
+## 2026-09-12 — Pipes and FIFOs
+
+**Core question:** How to communicate between related and unrelated processes?
+
+**Things to check:**
+
+- What are the differences between anonymous pipes and named pipes?
+- How to handle blocking vs non-blocking reads/writes?
+- What happens when a pipe is closed?
+- How to multiplex multiple pipes?
+
+**Exercise:** Implement a simple shell pipeline: cmd1 | cmd2 | cmd3. Use fork, dup2, and pipe to connect stdin/stdout between processes.
+
+**My notes:**
+
 - 
