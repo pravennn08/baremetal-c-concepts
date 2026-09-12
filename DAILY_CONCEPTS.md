@@ -228,4 +228,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-13 -->
+<!-- daily-concept-index: 13 -->
+## 2026-09-13 — Shared Memory
+
+**Core question:** How to share memory between processes efficiently?
+
+**Things to check:**
+
+- What are POSIX shared memory vs System V?
+- How to synchronize access to shared memory?
+- What happens to shared memory when processes exit?
+- How to map files into memory with mmap?
+
+**Exercise:** Implement a producer-consumer pattern using POSIX shared memory with a mutex and condition variable stored in the shared segment.
+
+**My notes:**
+
 - 
