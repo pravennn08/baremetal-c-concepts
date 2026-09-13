@@ -247,4 +247,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-14 -->
+<!-- daily-concept-index: 14 -->
+## 2026-09-14 — Message Queues
+
+**Core question:** How to send structured messages between processes?
+
+**Things to check:**
+
+- What are the advantages over pipes?
+- How to handle message priorities?
+- What are the capacity limits?
+- How to choose between System V and POSIX message queues?
+
+**Exercise:** Create a simple chat program where multiple clients send messages to a server using POSIX message queues with message priorities.
+
+**My notes:**
+
 - 
