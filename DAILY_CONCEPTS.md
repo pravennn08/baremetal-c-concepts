@@ -266,4 +266,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-15 -->
+<!-- daily-concept-index: 15 -->
+## 2026-09-15 — Threads and Pthreads
+
+**Core question:** What's the difference between processes and threads?
+
+**Things to check:**
+
+- How to create and join threads?
+- What thread attributes are configurable?
+- How to pass data to threads safely?
+- What are the stack size considerations?
+
+**Exercise:** Write a multi-threaded program that calculates the sum of an array using multiple threads. Each thread processes a chunk of the array. Compare performance with process-based version.
+
+**My notes:**
+
 - 
