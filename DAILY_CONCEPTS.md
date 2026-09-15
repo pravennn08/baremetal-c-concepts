@@ -285,4 +285,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-16 -->
+<!-- daily-concept-index: 16 -->
+## 2026-09-16 — Mutexes and Condition Variables
+
+**Core question:** How to synchronize thread access to shared resources?
+
+**Things to check:**
+
+- What is the difference between mutex and spinlock?
+- How to avoid deadlock?
+- What is the condition variable pattern?
+- What are the pthread mutex attributes?
+
+**Exercise:** Implement a thread-safe queue with mutexes and condition variables. Include proper handling of spurious wakeups.
+
+**My notes:**
+
 - 
