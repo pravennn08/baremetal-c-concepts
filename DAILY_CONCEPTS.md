@@ -304,4 +304,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-17 -->
+<!-- daily-concept-index: 17 -->
+## 2026-09-17 — Atomic Operations
+
+**Core question:** When are atomic operations necessary and sufficient?
+
+**Things to check:**
+
+- What operations can be made atomic in C?
+- How to use C11 atomics?
+- What are memory barriers and when are they needed?
+- What is the difference between atomic and volatile?
+
+**Exercise:** Implement a lock-free counter using C11 atomic operations. Compare with a mutex-protected counter in a multi-threaded benchmark.
+
+**My notes:**
+
 - 
