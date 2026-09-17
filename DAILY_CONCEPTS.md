@@ -323,4 +323,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-18 -->
+<!-- daily-concept-index: 18 -->
+## 2026-09-18 — Thread-Specific Storage
+
+**Core question:** How to maintain per-thread state?
+
+**Things to check:**
+
+- How to use pthread_key_t and pthread_setspecific?
+- What happens to thread-local data on thread exit?
+- When to use __thread or thread_local?
+- How to cleanup thread-local storage?
+
+**Exercise:** Create a thread-safe logging system where each thread maintains its own log buffer using thread-specific storage, flushing on completion.
+
+**My notes:**
+
 - 
