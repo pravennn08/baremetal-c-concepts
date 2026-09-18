@@ -342,4 +342,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-19 -->
+<!-- daily-concept-index: 19 -->
+## 2026-09-19 — Non-Blocking I/O and Select
+
+**Core question:** How to monitor multiple file descriptors?
+
+**Things to check:**
+
+- How to set non-blocking mode on file descriptors?
+- What are the limitations of select?
+- How to handle EAGAIN and EWOULDBLOCK?
+- What is the difference between select, poll, and epoll?
+
+**Exercise:** Implement a simple TCP server that handles multiple clients using select. Handle read/write events without blocking.
+
+**My notes:**
+
 - 
