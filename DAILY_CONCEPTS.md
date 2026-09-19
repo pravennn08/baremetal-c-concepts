@@ -361,4 +361,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-20 -->
+<!-- daily-concept-index: 20 -->
+## 2026-09-20 — Epoll and Event-Driven Programming
+
+**Core question:** How to handle thousands of connections efficiently?
+
+**Things to check:**
+
+- What are edge-triggered vs level-triggered events?
+- How to use epoll_create, epoll_ctl, and epoll_wait?
+- How to manage connection state in event loops?
+- What are the performance advantages of epoll?
+
+**Exercise:** Write an echo server using epoll that handles many concurrent connections. Include proper handling of partial reads/writes.
+
+**My notes:**
+
 - 
