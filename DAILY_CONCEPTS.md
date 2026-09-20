@@ -380,4 +380,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-21 -->
+<!-- daily-concept-index: 21 -->
+## 2026-09-21 — TCP Socket Programming
+
+**Core question:** How to establish reliable network connections?
+
+**Things to check:**
+
+- What is the TCP three-way handshake?
+- How to handle connection establishment failures?
+- What are socket options and when to use them?
+- How to handle TCP_NODELAY and Nagle's algorithm?
+
+**Exercise:** Implement a TCP client-server application where the server echoes back a message. Handle connection resets, timeouts, and partial sends gracefully.
+
+**My notes:**
+
 - 
