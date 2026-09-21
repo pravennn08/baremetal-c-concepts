@@ -399,4 +399,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-22 -->
+<!-- daily-concept-index: 22 -->
+## 2026-09-22 — UDP and Datagram Sockets
+
+**Core question:** How to handle connectionless, unreliable communication?
+
+**Things to check:**
+
+- What are the differences between TCP and UDP?
+- How to handle packet loss and reordering?
+- How to implement reliability on top of UDP?
+- When is UDP preferred over TCP?
+
+**Exercise:** Implement a UDP-based file transfer protocol with retransmission and acknowledgments. Handle packet loss simulation.
+
+**My notes:**
+
 - 
