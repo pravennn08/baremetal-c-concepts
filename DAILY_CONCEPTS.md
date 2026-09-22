@@ -418,4 +418,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-23 -->
+<!-- daily-concept-index: 23 -->
+## 2026-09-23 — Unix Domain Sockets
+
+**Core question:** How to communicate between processes on the same host?
+
+**Things to check:**
+
+- What are the performance advantages?
+- How to pass file descriptors over Unix sockets?
+- What are the security implications?
+- How to use SOCK_SEQPACKET?
+
+**Exercise:** Implement a privileged daemon that receives file descriptors over Unix domain sockets from unprivileged clients and performs operations on them.
+
+**My notes:**
+
 - 
