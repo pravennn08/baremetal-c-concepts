@@ -437,4 +437,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-24 -->
+<!-- daily-concept-index: 24 -->
+## 2026-09-24 — Timer Management
+
+**Core question:** How to implement timeouts and periodic tasks?
+
+**Things to check:**
+
+- How to use timerfd_create?
+- What are the differences between settimer and timer_create?
+- How to implement a timing wheel?
+- How to handle system time changes?
+
+**Exercise:** Implement a connection timeout system for a network server using a timer wheel. Each connection times out after N seconds of inactivity.
+
+**My notes:**
+
 - 
