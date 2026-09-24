@@ -456,4 +456,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-25 -->
+<!-- daily-concept-index: 25 -->
+## 2026-09-25 — Memory Pool Allocation
+
+**Core question:** How to manage memory efficiently for high-performance applications?
+
+**Things to check:**
+
+- What are the advantages over malloc/free?
+- How to implement a slab allocator?
+- How to handle variable-size allocations?
+- How to avoid fragmentation?
+
+**Exercise:** Implement a fixed-size memory pool that allocates and frees blocks efficiently. Include thread-safety and demonstrate reuse patterns.
+
+**My notes:**
+
 - 
