@@ -475,4 +475,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-26 -->
+<!-- daily-concept-index: 26 -->
+## 2026-09-26 — Cache and Alignment
+
+**Core question:** How does memory layout affect performance?
+
+**Things to check:**
+
+- What is cache line size and why does it matter?
+- How to align structures for cache efficiency?
+- What is false sharing and how to avoid it?
+- How to use __attribute__((aligned))?
+
+**Exercise:** Write a benchmark that compares performance of an array of structs where fields are ordered for cache efficiency vs poorly ordered. Measure cache misses.
+
+**My notes:**
+
 - 
