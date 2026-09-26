@@ -494,4 +494,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-27 -->
+<!-- daily-concept-index: 27 -->
+## 2026-09-27 — Endianness and Serialization
+
+**Core question:** How to exchange data between systems with different architectures?
+
+**Things to check:**
+
+- How to detect endianness at runtime?
+- What are network byte order functions?
+- How to design a portable serialization format?
+- How to handle floating-point serialization?
+
+**Exercise:** Implement a serializer that converts a struct containing integers, floats, and strings to a byte stream and back, handling endianness conversion.
+
+**My notes:**
+
 - 
