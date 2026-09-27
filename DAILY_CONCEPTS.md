@@ -513,4 +513,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-28 -->
+<!-- daily-concept-index: 28 -->
+## 2026-09-28 — Error Handling Patterns
+
+**Core question:** How to design robust error handling?
+
+**Things to check:**
+
+- What are the tradeoffs of return codes vs errno?
+- How to use setjmp/longjmp for exception-like handling?
+- How to propagate errors up the call stack?
+- How to handle cleanup on error paths?
+
+**Exercise:** Design an error handling system for a library that uses error codes, provides error strings, and automatically cleans up resources on failure using goto patterns.
+
+**My notes:**
+
 - 
