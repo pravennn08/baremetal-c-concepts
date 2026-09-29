@@ -532,4 +532,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-29 -->
+<!-- daily-concept-index: 29 -->
+## 2026-09-29 — Preprocessor and Build Systems
+
+**Core question:** How to manage compile-time configuration?
+
+**Things to check:**
+
+- What's the difference between #define and const?
+- How to use #ifdef for platform-specific code?
+- What are common pitfalls with macros?
+- How to use X macros for code generation?
+
+**Exercise:** Write a program that uses X macros to generate both an enum and a string array mapping, ensuring they stay in sync.
+
+**My notes:**
+
 - 
