@@ -551,4 +551,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-09-30 -->
+<!-- daily-concept-index: 30 -->
+## 2026-09-30 — GDB and Debugging Techniques
+
+**Core question:** How to effectively debug C programs?
+
+**Things to check:**
+
+- How to set breakpoints and watchpoints?
+- How to examine memory and registers?
+- How to debug multi-threaded programs?
+- How to attach to a running process?
+
+**Exercise:** Debug a program with a memory leak, a buffer overflow, and a race condition. Find and fix all issues using GDB and other tools.
+
+**My notes:**
+
 - 
