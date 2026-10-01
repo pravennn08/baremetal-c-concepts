@@ -570,4 +570,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-01 -->
+<!-- daily-concept-index: 31 -->
+## 2026-10-01 — Valgrind and Memory Profiling
+
+**Core question:** How to detect memory leaks and errors?
+
+**Things to check:**
+
+- What are the different Valgrind tools?
+- How to interpret Memcheck output?
+- How to use Callgrind for performance analysis?
+- How to use memory checkers in CI pipelines?
+
+**Exercise:** Analyze a buggy program with Valgrind. Identify and fix all memory errors: leaks, invalid reads/writes, use-after-free, and double frees.
+
+**My notes:**
+
 - 
