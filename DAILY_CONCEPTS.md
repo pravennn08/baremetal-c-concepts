@@ -589,4 +589,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-02 -->
+<!-- daily-concept-index: 32 -->
+## 2026-10-02 — Inlining and Compiler Optimizations
+
+**Core question:** How does the compiler optimize C code?
+
+**Things to check:**
+
+- What is function inlining and when does it happen?
+- What are the -O flags and their effects?
+- How to use __attribute__((always_inline))?
+- How to read compiler-generated assembly?
+
+**Exercise:** Write a small computation-intensive function. Examine the generated assembly with different optimization levels. Use the function attribute to force inlining.
+
+**My notes:**
+
 - 
