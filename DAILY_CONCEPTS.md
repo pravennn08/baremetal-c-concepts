@@ -608,4 +608,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-03 -->
+<!-- daily-concept-index: 33 -->
+## 2026-10-03 — The C Standard Library
+
+**Core question:** What parts of the standard library are safe and efficient?
+
+**Things to check:**
+
+- What are the unsafe functions and their replacements?
+- How to use snprintf safely?
+- When to use strtok vs strtok_r?
+- What are the limitations of standard I/O?
+
+**Exercise:** Write a simple CSV parser that reads a file, splits lines, and extracts fields. Use only standard library functions and ensure no buffer overflows.
+
+**My notes:**
+
 - 
