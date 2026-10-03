@@ -627,4 +627,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-04 -->
+<!-- daily-concept-index: 34 -->
+## 2026-10-04 — Floating-Point Arithmetic
+
+**Core question:** How to handle floating-point operations correctly?
+
+**Things to check:**
+
+- What is the IEEE-754 representation?
+- How to compare floats safely?
+- What are the pitfalls of floating-point accumulation?
+- How to use fenv.h for rounding control?
+
+**Exercise:** Implement a function that calculates the standard deviation of an array. Discuss numerical stability and compare different algorithms.
+
+**My notes:**
+
 - 
