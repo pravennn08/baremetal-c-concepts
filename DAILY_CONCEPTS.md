@@ -646,4 +646,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-05 -->
+<!-- daily-concept-index: 35 -->
+## 2026-10-05 — Random Number Generation
+
+**Core question:** How to generate cryptographically secure random numbers?
+
+**Things to check:**
+
+- What is the difference between PRNG and CSPRNG?
+- How to seed a PRNG properly?
+- How to use /dev/urandom?
+- What are the pitfalls of rand()?
+
+**Exercise:** Implement a random password generator that uses getrandom(2) for seed and a high-quality PRNG. Discuss security considerations.
+
+**My notes:**
+
 - 
