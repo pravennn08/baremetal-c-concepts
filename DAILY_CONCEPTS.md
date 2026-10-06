@@ -665,4 +665,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-06 -->
+<!-- daily-concept-index: 36 -->
+## 2026-10-06 — String Manipulation and Encoding
+
+**Core question:** How to handle text in C safely and efficiently?
+
+**Things to check:**
+
+- What's the difference between ASCII, UTF-8, and wchar_t?
+- How to validate UTF-8 input?
+- What are the pitfalls of strlen and strcpy?
+- How to create efficient string builders?
+
+**Exercise:** Implement a UTF-8 string validation function. Then implement a function that converts UTF-8 to UTF-32 and back.
+
+**My notes:**
+
 - 
