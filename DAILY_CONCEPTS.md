@@ -684,4 +684,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-07 -->
+<!-- daily-concept-index: 37 -->
+## 2026-10-07 — Date and Time Handling
+
+**Core question:** How to handle time correctly across timezones?
+
+**Things to check:**
+
+- What is the difference between time_t and struct tm?
+- How to handle timezone conversions?
+- What are the leap second issues?
+- How to measure elapsed time with clock_gettime?
+
+**Exercise:** Implement a function that calculates the time difference between two timezones on a specific date. Handle daylight saving transitions.
+
+**My notes:**
+
 - 
