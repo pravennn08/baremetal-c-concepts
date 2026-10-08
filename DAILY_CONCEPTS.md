@@ -703,4 +703,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-08 -->
+<!-- daily-concept-index: 38 -->
+## 2026-10-08 — Environment Variables and Configuration
+
+**Core question:** How to securely manage configuration in C programs?
+
+**Things to check:**
+
+- How to read environment variables safely?
+- What are the security implications?
+- How to parse configuration files?
+- How to set environment variables for child processes?
+
+**Exercise:** Write a program that reads configuration from environment variables and a .conf file. Handle default values and override precedence.
+
+**My notes:**
+
 - 
