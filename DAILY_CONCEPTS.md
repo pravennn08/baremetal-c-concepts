@@ -722,4 +722,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-09 -->
+<!-- daily-concept-index: 39 -->
+## 2026-10-09 — Command Line Argument Parsing
+
+**Core question:** How to build robust CLI interfaces?
+
+**Things to check:**
+
+- What's the difference between getopt and getopt_long?
+- How to handle optional arguments?
+- How to implement subcommands?
+- How to display help text properly?
+
+**Exercise:** Implement a CLI tool with subcommands (like git). Use getopt_long for options and handle --help and --version flags.
+
+**My notes:**
+
 - 
