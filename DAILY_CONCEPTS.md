@@ -741,4 +741,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-10 -->
+<!-- daily-concept-index: 40 -->
+## 2026-10-10 — Wildcard Expansion and Globbing
+
+**Core question:** How to handle file patterns like *.c?
+
+**Things to check:**
+
+- How to use glob() from glob.h?
+- What's the difference between shell and system globbing?
+- How to handle recursive glob patterns?
+- How to expand ~ in paths?
+
+**Exercise:** Implement a program that takes a glob pattern and processes all matching files. Handle common shell expansions.
+
+**My notes:**
+
 - 
