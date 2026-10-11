@@ -760,4 +760,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-11 -->
+<!-- daily-concept-index: 41 -->
+## 2026-10-11 — File Locking
+
+**Core question:** How to coordinate access to files?
+
+**Things to check:**
+
+- What's the difference between fcntl, flock, and lockf?
+- How to handle mandatory vs advisory locking?
+- What are deadlocks and how to avoid them?
+- How to lock ranges within a file?
+
+**Exercise:** Implement a simple database with record-level locking where each record can be locked independently.
+
+**My notes:**
+
 - 
