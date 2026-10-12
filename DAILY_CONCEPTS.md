@@ -779,4 +779,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-12 -->
+<!-- daily-concept-index: 42 -->
+## 2026-10-12 — Memory Protection and mprotect
+
+**Core question:** How to control memory access permissions?
+
+**Things to check:**
+
+- How to use mprotect to change page permissions?
+- How to catch segmentation faults?
+- What is the guard page technique?
+- How to implement stack overflow detection?
+
+**Exercise:** Use mprotect to create a protected memory region. Install a signal handler for SIGSEGV and handle the fault gracefully.
+
+**My notes:**
+
 - 
