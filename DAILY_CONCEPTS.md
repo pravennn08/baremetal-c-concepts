@@ -798,4 +798,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-13 -->
+<!-- daily-concept-index: 43 -->
+## 2026-10-13 — Allocator Design
+
+**Core question:** How to design your own malloc implementation?
+
+**Things to check:**
+
+- What are the data structures for free lists?
+- How to handle fragmentation?
+- How to implement a best-fit allocator?
+- How to interact with the OS using sbrk and mmap?
+
+**Exercise:** Implement your own malloc, free, and realloc using a linked list of free blocks. Handle coalescing of adjacent free blocks.
+
+**My notes:**
+
 - 
