@@ -817,4 +817,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-14 -->
+<!-- daily-concept-index: 44 -->
+## 2026-10-14 — Stack vs Heap Allocation
+
+**Core question:** When should you use stack vs heap allocation?
+
+**Things to check:**
+
+- What is the typical stack size limit?
+- How to detect stack overflow?
+- What are the benefits of alloca?
+- How to use variable-length arrays safely?
+
+**Exercise:** Compare the performance of allocating a large array on the stack vs heap. Discuss when to use each approach.
+
+**My notes:**
+
 - 
