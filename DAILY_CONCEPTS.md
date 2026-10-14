@@ -836,4 +836,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-15 -->
+<!-- daily-concept-index: 45 -->
+## 2026-10-15 — Integer Overflow and Undefined Behavior
+
+**Core question:** How to detect and prevent integer overflows?
+
+**Things to check:**
+
+- What operations cause undefined behavior?
+- How to check for overflow before operations?
+- What are the compiler's overflow optimization implications?
+- How to use __builtin_add_overflow?
+
+**Exercise:** Implement safe addition, subtraction, and multiplication functions that return error on overflow. Use compiler builtins when available.
+
+**My notes:**
+
 - 
