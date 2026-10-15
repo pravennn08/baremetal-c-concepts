@@ -855,4 +855,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-16 -->
+<!-- daily-concept-index: 46 -->
+## 2026-10-16 — Inline Assembly
+
+**Core question:** When and how to use assembly in C programs?
+
+**Things to check:**
+
+- What is the GCC extended asm syntax?
+- How to specify input/output operands?
+- What are clobbered registers?
+- When is inline assembly necessary?
+
+**Exercise:** Write an inline assembly function that reads the CPU timestamp counter (RDTSC) and a CPUID instruction. Compare with compiler intrinsics.
+
+**My notes:**
+
 - 
