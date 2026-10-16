@@ -874,4 +874,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-17 -->
+<!-- daily-concept-index: 47 -->
+## 2026-10-17 — SIMD and Vectorization
+
+**Core question:** How to leverage CPU vector instructions?
+
+**Things to check:**
+
+- What are SSE, AVX, and NEON?
+- How to use compiler auto-vectorization?
+- What are intrinsics vs inline assembly?
+- How to align data for SIMD?
+
+**Exercise:** Implement a dot product using SSE intrinsics. Compare performance with scalar code and auto-vectorized code.
+
+**My notes:**
+
 - 
