@@ -893,4 +893,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-18 -->
+<!-- daily-concept-index: 48 -->
+## 2026-10-18 — Endianness and Binary Formats
+
+**Core question:** How to read and write portable binary formats?
+
+**Things to check:**
+
+- What's the difference between big-endian and little-endian?
+- How to detect endianness at runtime?
+- What are the standard binary formats (ELF, PE, Mach-O)?
+- How to parse ELF headers?
+
+**Exercise:** Write a simple ELF parser that reads an ELF file and prints its header, section headers, and program headers.
+
+**My notes:**
+
 - 
