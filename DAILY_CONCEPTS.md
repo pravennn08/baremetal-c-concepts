@@ -912,4 +912,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-19 -->
+<!-- daily-concept-index: 49 -->
+## 2026-10-19 — Pseudo-Terminals and Process Control
+
+**Core question:** How to create interactive terminal sessions?
+
+**Things to check:**
+
+- What is a pseudo-terminal (pty)?
+- How to use forkpty and openpty?
+- How to handle terminal signaling?
+- How to implement a terminal emulator?
+
+**Exercise:** Implement a simple terminal multiplexer using pseudo-terminals. Connect to a shell process and handle input/output.
+
+**My notes:**
+
 - 
