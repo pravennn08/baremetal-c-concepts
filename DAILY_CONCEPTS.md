@@ -950,4 +950,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-21 -->
+<!-- daily-concept-index: 51 -->
+## 2026-10-21 — Capabilities and Privilege Separation
+
+**Core question:** How to implement least privilege principles?
+
+**Things to check:**
+
+- What are Linux capabilities?
+- How to drop privileges using setuid and setcap?
+- What is privilege separation?
+- How to use chroot or namespaces?
+
+**Exercise:** Write a network service that binds to a privileged port and then drops privileges to a non-privileged user while maintaining network access.
+
+**My notes:**
+
 - 
