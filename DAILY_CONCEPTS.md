@@ -931,4 +931,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-20 -->
+<!-- daily-concept-index: 50 -->
+## 2026-10-20 — Daemon Processes
+
+**Core question:** How to create well-behaved background services?
+
+**Things to check:**
+
+- What are the steps to daemonize a process?
+- How to handle file descriptors in a daemon?
+- What is the double-fork technique?
+- How to use systemd for service management?
+
+**Exercise:** Write a daemon that writes to a log file. Ensure it handles SIGHUP to reopen log files and SIGTERM to exit cleanly.
+
+**My notes:**
+
 - 
