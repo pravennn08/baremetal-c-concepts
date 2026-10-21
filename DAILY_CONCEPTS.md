@@ -969,4 +969,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-22 -->
+<!-- daily-concept-index: 52 -->
+## 2026-10-22 — System Calls: The Kernel Interface
+
+**Core question:** What happens when you call read or write?
+
+**Things to check:**
+
+- What is the system call number?
+- What are the return codes and errno?
+- What is the performance cost of a system call?
+- How to use syscall() directly?
+
+**Exercise:** Implement your own getpid() wrapper using syscall(). Trace system call usage with strace.
+
+**My notes:**
+
 - 
