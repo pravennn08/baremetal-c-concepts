@@ -988,4 +988,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-23 -->
+<!-- daily-concept-index: 53 -->
+## 2026-10-23 — Dynamic Library Loading
+
+**Core question:** How to load libraries at runtime?
+
+**Things to check:**
+
+- How to use dlopen, dlsym, and dlclose?
+- What are the RTLD_* flags?
+- How to handle symbol conflicts?
+- How to implement plugins?
+
+**Exercise:** Implement a plugin system where plugins are loaded from .so files at runtime. Each plugin registers a function to be called.
+
+**My notes:**
+
 - 
