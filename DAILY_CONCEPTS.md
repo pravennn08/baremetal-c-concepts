@@ -1007,4 +1007,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-24 -->
+<!-- daily-concept-index: 54 -->
+## 2026-10-24 — Fork and Exec Patterns
+
+**Core question:** How to replace the current process image?
+
+**Things to check:**
+
+- What's the difference between execlp, execvp, execve?
+- How to pass environment variables?
+- What happens to open file descriptors?
+- How to handle exec failures?
+
+**Exercise:** Write a program that forks and executes child processes. Handle all exec failure cases and preserve file descriptors.
+
+**My notes:**
+
 - 
