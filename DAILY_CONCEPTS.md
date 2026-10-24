@@ -1026,4 +1026,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-25 -->
+<!-- daily-concept-index: 55 -->
+## 2026-10-25 — Signals and Real-time Signals
+
+**Core question:** How to use signals for IPC?
+
+**Things to check:**
+
+- What are real-time signals (SIGRTMIN+)
+- How to queue signals?
+- How to attach data to signals?
+- What are the limitations of traditional signals?
+
+**Exercise:** Implement a real-time signal-based IPC mechanism where a process sends signals with payload data to another process.
+
+**My notes:**
+
 - 
