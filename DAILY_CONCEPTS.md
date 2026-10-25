@@ -1045,4 +1045,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-26 -->
+<!-- daily-concept-index: 56 -->
+## 2026-10-26 — Thread Cancellation
+
+**Core question:** How to safely terminate a thread?
+
+**Things to check:**
+
+- What is pthread_cancel?
+- How to use cancellation points?
+- What are cleanup handlers?
+- How to avoid resource leaks?
+
+**Exercise:** Create a thread that performs a long operation. Cancel it safely and ensure all resources are freed using pthread_cleanup_push/pop.
+
+**My notes:**
+
 - 
