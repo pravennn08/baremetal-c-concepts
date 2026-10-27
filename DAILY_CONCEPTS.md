@@ -1064,4 +1064,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-27 -->
+<!-- daily-concept-index: 57 -->
+## 2026-10-27 — Thread Pools
+
+**Core question:** How to manage a pool of worker threads?
+
+**Things to check:**
+
+- What is the worker thread pattern?
+- How to submit tasks and get results?
+- How to handle dynamic task prioritization?
+- How to scale thread count?
+
+**Exercise:** Implement a thread pool with a queue of tasks. Tasks are functions with arguments. Handle task submission and completion.
+
+**My notes:**
+
 - 
