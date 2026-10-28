@@ -1083,4 +1083,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-28 -->
+<!-- daily-concept-index: 58 -->
+## 2026-10-28 — Read-Write Locks
+
+**Core question:** How to allow concurrent reads but exclusive writes?
+
+**Things to check:**
+
+- What is the reader-writer lock pattern?
+- How to use pthread_rwlock_*?
+- What are the starvation concerns?
+- How to upgrade from read to write lock?
+
+**Exercise:** Implement a thread-safe cache using a read-write lock. Multiple threads can read, but writes are exclusive.
+
+**My notes:**
+
 - 
