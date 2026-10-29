@@ -1102,4 +1102,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-29 -->
+<!-- daily-concept-index: 59 -->
+## 2026-10-29 — Spinlocks and Busy Waiting
+
+**Core question:** When is busy waiting appropriate?
+
+**Things to check:**
+
+- What's the difference between spinlock and mutex?
+- When does spinning beat context switching?
+- How to implement a spinlock using atomic operations?
+- What's the CPU cache impact?
+
+**Exercise:** Implement a spinlock using C11 atomics. Compare performance with mutex for very short critical sections.
+
+**My notes:**
+
 - 
