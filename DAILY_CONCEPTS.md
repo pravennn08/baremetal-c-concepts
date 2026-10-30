@@ -1121,4 +1121,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-30 -->
+<!-- daily-concept-index: 60 -->
+## 2026-10-30 — Barriers and Synchronization Patterns
+
+**Core question:** How to synchronize groups of threads?
+
+**Things to check:**
+
+- What is a pthread_barrier?
+- How to implement a custom barrier?
+- What are the phase synchronization patterns?
+- How to use barrier in iterative algorithms?
+
+**Exercise:** Implement a parallel reduction algorithm that uses a barrier to synchronize threads after each reduction step.
+
+**My notes:**
+
 - 
