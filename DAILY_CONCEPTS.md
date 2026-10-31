@@ -1140,4 +1140,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-10-31 -->
+<!-- daily-concept-index: 61 -->
+## 2026-10-31 — Lock-Free Data Structures
+
+**Core question:** How to implement data structures without locks?
+
+**Things to check:**
+
+- What are Compare-And-Swap (CAS) operations?
+- What is ABA problem and how to solve it?
+- How to implement a lock-free stack?
+- What are the benefits and limitations?
+
+**Exercise:** Implement a lock-free stack using atomic compare-and-exchange. Handle ABA problem with versioning.
+
+**My notes:**
+
 - 
