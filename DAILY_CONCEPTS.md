@@ -1159,4 +1159,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-01 -->
+<!-- daily-concept-index: 62 -->
+## 2026-11-01 — Memory Barriers and Ordering
+
+**Core question:** How does memory reordering affect concurrency?
+
+**Things to check:**
+
+- What are the different memory orderings?
+- How to use memory barriers in practice?
+- How to implement double-checked locking?
+- What are the hardware-specific considerations?
+
+**Exercise:** Implement a thread-safe singleton using atomic operations and proper memory barriers. Explain the ordering requirements.
+
+**My notes:**
+
 - 
