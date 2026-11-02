@@ -1178,4 +1178,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-02 -->
+<!-- daily-concept-index: 63 -->
+## 2026-11-02 — Processor Affinity
+
+**Core question:** How to bind threads to specific CPU cores?
+
+**Things to check:**
+
+- How to use pthread_setaffinity_np?
+- How to get CPU topology?
+- What are NUMA considerations?
+- How to optimize for cache locality?
+
+**Exercise:** Write a program that detects the CPU topology (cores, sockets, NUMA nodes) and pins worker threads to specific cores.
+
+**My notes:**
+
 - 
