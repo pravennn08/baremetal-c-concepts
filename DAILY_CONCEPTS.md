@@ -1197,4 +1197,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-03 -->
+<!-- daily-concept-index: 64 -->
+## 2026-11-03 — Asynchronous I/O (AIO)
+
+**Core question:** How to perform I/O without blocking?
+
+**Things to check:**
+
+- What is POSIX AIO?
+- How to use aio_read and aio_write?
+- How to wait for AIO completion?
+- What are the performance characteristics?
+
+**Exercise:** Implement a file copy utility using POSIX AIO with multiple concurrent I/O operations.
+
+**My notes:**
+
 - 
