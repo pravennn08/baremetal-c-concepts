@@ -1216,4 +1216,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-04 -->
+<!-- daily-concept-index: 65 -->
+## 2026-11-04 — The io_uring Interface
+
+**Core question:** How to achieve high-performance I/O on Linux?
+
+**Things to check:**
+
+- What is the io_uring submission/completion model?
+- How to use io_uring for file I/O?
+- How to handle multiple operations per submission?
+- What are the performance benefits?
+
+**Exercise:** Write a file server using io_uring that handles concurrent read/write requests. Compare performance with epoll-based server.
+
+**My notes:**
+
 - 
