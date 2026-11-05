@@ -1235,4 +1235,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-05 -->
+<!-- daily-concept-index: 66 -->
+## 2026-11-05 — Networking: TCP vs UDP Performance
+
+**Core question:** How to choose the right transport protocol?
+
+**Things to check:**
+
+- What are the performance characteristics?
+- How to use TCP_CORK and MSG_MORE?
+- How to implement UDP reliability?
+- What is TCP offload?
+
+**Exercise:** Benchmark message throughput for TCP and UDP. Implement a simple reliable protocol over UDP with ACKs and retries.
+
+**My notes:**
+
 - 
