@@ -1254,4 +1254,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-06 -->
+<!-- daily-concept-index: 67 -->
+## 2026-11-06 — DNS Resolution
+
+**Core question:** How to resolve hostnames to IP addresses?
+
+**Things to check:**
+
+- What is the difference between gethostbyname and getaddrinfo?
+- How to handle DNS timeouts?
+- How to implement asynchronous DNS?
+- What are the caching implications?
+
+**Exercise:** Implement a DNS resolver that can resolve hostnames asynchronously using getaddrinfo with a timeout.
+
+**My notes:**
+
 - 
