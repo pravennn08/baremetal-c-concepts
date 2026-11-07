@@ -1273,4 +1273,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-07 -->
+<!-- daily-concept-index: 68 -->
+## 2026-11-07 — SSL/TLS with OpenSSL
+
+**Core question:** How to secure network communications?
+
+**Things to check:**
+
+- What is the TLS handshake?
+- How to use SSL_read and SSL_write?
+- How to handle certificate validation?
+- What are the performance considerations?
+
+**Exercise:** Implement a simple HTTPS client that makes a request to a server, validates the certificate, and processes the response.
+
+**My notes:**
+
 - 
