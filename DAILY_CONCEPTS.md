@@ -1292,4 +1292,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-08 -->
+<!-- daily-concept-index: 69 -->
+## 2026-11-08 — Sockets and Non-Blocking Patterns
+
+**Core question:** How to structure non-blocking network servers?
+
+**Things to check:**
+
+- How to combine non-blocking sockets with epoll?
+- How to handle EAGAIN and EWOULDBLOCK?
+- How to implement a state machine for connections?
+- How to handle timeouts?
+
+**Exercise:** Implement a non-blocking HTTP server using epoll. Handle partial reads/writes and manage connection state.
+
+**My notes:**
+
 - 
