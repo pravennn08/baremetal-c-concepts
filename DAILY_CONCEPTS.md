@@ -1311,4 +1311,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-09 -->
+<!-- daily-concept-index: 70 -->
+## 2026-11-09 — Protocol Buffers
+
+**Core question:** How to design efficient binary protocols?
+
+**Things to check:**
+
+- What is Protobuf serialization format?
+- How to use varint encoding?
+- What are the field types and tags?
+- How to handle protocol evolution?
+
+**Exercise:** Design a simple binary protocol that serializes key-value pairs with varint length prefixes. Implement a reader and writer.
+
+**My notes:**
+
 - 
