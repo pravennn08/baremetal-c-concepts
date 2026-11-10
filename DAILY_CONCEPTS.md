@@ -1330,4 +1330,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-10 -->
+<!-- daily-concept-index: 71 -->
+## 2026-11-10 — Circular Buffers
+
+**Core question:** How to efficiently buffer streaming data?
+
+**Things to check:**
+
+- What is the producer-consumer buffer pattern?
+- How to implement a lock-free circular buffer?
+- How to handle overflow and underflow?
+- How to use memory-mapped circular buffers?
+
+**Exercise:** Implement a lock-free circular buffer for a producer-consumer pattern using atomic head and tail pointers.
+
+**My notes:**
+
 - 
