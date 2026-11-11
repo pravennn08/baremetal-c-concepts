@@ -1349,4 +1349,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-11 -->
+<!-- daily-concept-index: 72 -->
+## 2026-11-11 — State Machines in C
+
+**Core question:** How to model stateful protocols clearly?
+
+**Things to check:**
+
+- What are the different state machine patterns?
+- How to use function pointers for state transitions?
+- How to handle events and timeouts?
+- How to test state machines?
+
+**Exercise:** Implement a TCP connection state machine (CLOSED, LISTEN, SYN_SENT, SYN_RCVD, ESTABLISHED) with event handlers.
+
+**My notes:**
+
 - 
