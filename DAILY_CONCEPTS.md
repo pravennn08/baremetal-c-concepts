@@ -1368,4 +1368,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-12 -->
+<!-- daily-concept-index: 73 -->
+## 2026-11-12 — Finite State Machines and Tables
+
+**Core question:** How to implement efficient state transitions?
+
+**Things to check:**
+
+- How to use state transition tables?
+- What are the benefits over if/switch?
+- How to handle nested states?
+- How to generate code from state diagrams?
+
+**Exercise:** Implement a parser for a simple protocol using a state transition table (2D array of next states and actions).
+
+**My notes:**
+
 - 
