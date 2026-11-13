@@ -1387,4 +1387,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-13 -->
+<!-- daily-concept-index: 74 -->
+## 2026-11-13 — Code Generation and Preprocessing
+
+**Core question:** How to generate boilerplate code automatically?
+
+**Things to check:**
+
+- How to use the C preprocessor for code generation?
+- What are X macros and their variations?
+- How to use external code generators?
+- How to handle conditional compilation?
+
+**Exercise:** Use X macros to generate: an enum, a string array, and a function to parse strings to enums. Keep all definitions in sync.
+
+**My notes:**
+
 - 
