@@ -1406,4 +1406,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-14 -->
+<!-- daily-concept-index: 75 -->
+## 2026-11-14 — Unit Testing in C
+
+**Core question:** How to write testable C code?
+
+**Things to check:**
+
+- What are the popular C testing frameworks?
+- How to mock dependencies?
+- How to test static functions?
+- How to measure test coverage?
+
+**Exercise:** Write a test suite for a string library using a testing framework. Include tests for edge cases and memory leaks.
+
+**My notes:**
+
 - 
