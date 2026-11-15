@@ -1425,4 +1425,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-15 -->
+<!-- daily-concept-index: 76 -->
+## 2026-11-15 — Fuzzing C Programs
+
+**Core question:** How to find bugs through automated testing?
+
+**Things to check:**
+
+- What is fuzzing and how does it work?
+- How to use American Fuzzy Lop (AFL)?
+- How to write a fuzz target?
+- How to reproduce and fix crashes?
+
+**Exercise:** Write a fuzz target for a parser function and run it with AFL. Fix any crashes found.
+
+**My notes:**
+
 - 
