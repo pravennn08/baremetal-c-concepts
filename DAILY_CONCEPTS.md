@@ -1444,4 +1444,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-16 -->
+<!-- daily-concept-index: 77 -->
+## 2026-11-16 — AddressSanitizer and UndefinedBehaviorSanitizer
+
+**Core question:** How to find memory errors at runtime?
+
+**Things to check:**
+
+- How to enable sanitizers in GCC/Clang?
+- What types of bugs does ASan catch?
+- How to interpret sanitizer output?
+- How to use UBSan for undefined behavior?
+
+**Exercise:** Compile a buggy program with AddressSanitizer and UBSan. Fix all detected issues including buffer overflows and signed integer overflows.
+
+**My notes:**
+
 - 
