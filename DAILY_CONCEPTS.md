@@ -1463,4 +1463,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-17 -->
+<!-- daily-concept-index: 78 -->
+## 2026-11-17 — Coverage Analysis
+
+**Core question:** How to measure code coverage?
+
+**Things to check:**
+
+- How to use gcov and lcov?
+- What are the different coverage types?
+- How to get coverage reports?
+- How to improve test coverage?
+
+**Exercise:** Run tests with coverage enabled. Analyze the coverage report and identify untested code paths. Write additional tests.
+
+**My notes:**
+
 - 
