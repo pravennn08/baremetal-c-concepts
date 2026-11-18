@@ -1482,4 +1482,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-18 -->
+<!-- daily-concept-index: 79 -->
+## 2026-11-18 — Symbol Tables and Debug Information
+
+**Core question:** How to preserve and use debugging symbols?
+
+**Things to check:**
+
+- What is DWARF debug information?
+- How to compile with debug symbols?
+- How to strip binaries for release?
+- How to use debug info with GDB?
+
+**Exercise:** Compile a program with and without debug symbols. Compare sizes. Write a script to extract function names from the debug info.
+
+**My notes:**
+
 - 
