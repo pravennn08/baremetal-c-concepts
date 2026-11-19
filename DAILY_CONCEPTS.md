@@ -1501,4 +1501,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-19 -->
+<!-- daily-concept-index: 80 -->
+## 2026-11-19 — Static Analysis with Clang
+
+**Core question:** How to find bugs without running the program?
+
+**Things to check:**
+
+- What are the common static analyzers?
+- How to use clang-tidy?
+- What are the false positive handling strategies?
+- How to integrate static analysis in CI?
+
+**Exercise:** Set up clang-tidy for a project. Fix all warnings and add comments for suppressed false positives.
+
+**My notes:**
+
 - 
