@@ -1520,4 +1520,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-20 -->
+<!-- daily-concept-index: 81 -->
+## 2026-11-20 — String Handling in C
+
+**Core question:** How to avoid common string pitfalls?
+
+**Things to check:**
+
+- What are the secure alternatives to strcpy?
+- How to build strings efficiently?
+- How to handle Unicode?
+- How to use strlcpy and strlcat?
+
+**Exercise:** Rewrite a function that has strcpy and strcat issues. Use safe functions and provide clear error handling.
+
+**My notes:**
+
 - 
