@@ -1539,4 +1539,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-21 -->
+<!-- daily-concept-index: 82 -->
+## 2026-11-21 — Dynamic Arrays
+
+**Core question:** How to implement resizable arrays efficiently?
+
+**Things to check:**
+
+- What is the amortized growth strategy?
+- How to handle reallocation?
+- How to avoid leaks on resize failure?
+- How to store user-defined types?
+
+**Exercise:** Implement a dynamic array (vector) with append, pop, and insert operations. Use doubling for growth.
+
+**My notes:**
+
 - 
