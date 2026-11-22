@@ -1558,4 +1558,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-22 -->
+<!-- daily-concept-index: 83 -->
+## 2026-11-22 — Hash Tables
+
+**Core question:** How to implement efficient key-value storage?
+
+**Things to check:**
+
+- What are the collision resolution strategies?
+- How to choose a hash function?
+- How to handle rehashing?
+- How to make it thread-safe?
+
+**Exercise:** Implement a hash table with chaining. Include operations: insert, lookup, delete, and print distribution.
+
+**My notes:**
+
 - 
