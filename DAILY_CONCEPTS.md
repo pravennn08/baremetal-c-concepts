@@ -1577,4 +1577,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-23 -->
+<!-- daily-concept-index: 84 -->
+## 2026-11-23 — Trees and Traversals
+
+**Core question:** How to implement hierarchical data structures?
+
+**Things to check:**
+
+- What are the binary tree traversal methods?
+- How to implement iterative traversals?
+- How to handle balanced trees?
+- How to avoid stack overflow in recursion?
+
+**Exercise:** Implement a binary search tree with insert, search, and delete. Write iterative and recursive traversals: inorder, preorder, postorder.
+
+**My notes:**
+
 - 
