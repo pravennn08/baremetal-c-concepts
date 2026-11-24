@@ -1596,4 +1596,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-24 -->
+<!-- daily-concept-index: 85 -->
+## 2026-11-24 — Red-Black Trees
+
+**Core question:** How to implement self-balancing trees?
+
+**Things to check:**
+
+- What are the properties of Red-Black trees?
+- How are rotations used for rebalancing?
+- How to handle insertion and deletion cases?
+- How does it compare to AVL trees?
+
+**Exercise:** Implement a Red-Black tree with insertion and deletion. Include verification of Red-Black properties.
+
+**My notes:**
+
 - 
