@@ -1615,4 +1615,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-25 -->
+<!-- daily-concept-index: 86 -->
+## 2026-11-25 — Sorting Algorithms
+
+**Core question:** How to choose the right sorting algorithm?
+
+**Things to check:**
+
+- What are the performance characteristics of each?
+- How to implement merge sort?
+- How to implement quicksort?
+- What are the stability considerations?
+
+**Exercise:** Implement merge sort, quicksort, and heap sort. Benchmark them on various data distributions (random, sorted, reverse sorted).
+
+**My notes:**
+
 - 
