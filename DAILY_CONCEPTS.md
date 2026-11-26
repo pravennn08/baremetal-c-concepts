@@ -1634,4 +1634,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-26 -->
+<!-- daily-concept-index: 87 -->
+## 2026-11-26 — External Sorting
+
+**Core question:** How to sort data that doesn't fit in memory?
+
+**Things to check:**
+
+- What is the external merge sort algorithm?
+- How to choose the number of runs?
+- How to handle multi-way merging?
+- What are the I/O optimization strategies?
+
+**Exercise:** Implement external sorting for a large file using k-way merge. Sort records and write back to file.
+
+**My notes:**
+
 - 
