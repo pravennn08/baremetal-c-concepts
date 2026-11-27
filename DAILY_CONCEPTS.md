@@ -1653,4 +1653,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-27 -->
+<!-- daily-concept-index: 88 -->
+## 2026-11-27 — Linked Lists
+
+**Core question:** When should you use linked lists?
+
+**Things to check:**
+
+- What are the advantages over arrays?
+- How to implement singly and doubly linked lists?
+- How to detect cycles?
+- What are the cache locality issues?
+
+**Exercise:** Implement a doubly linked list with insert, delete, and reverse operations. Add cycle detection.
+
+**My notes:**
+
 - 
