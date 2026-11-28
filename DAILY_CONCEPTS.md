@@ -1672,4 +1672,23 @@ One backend-engineering study prompt is published automatically each day. My not
 
 **My notes:**
 
+-
+
+<!-- daily-concept-date: 2026-11-28 -->
+<!-- daily-concept-index: 89 -->
+## 2026-11-28 — Bloom Filters
+
+**Core question:** How to check set membership with tunable false positives?
+
+**Things to check:**
+
+- How does a Bloom filter work?
+- How to choose the number of hash functions?
+- What are the space vs false positive tradeoffs?
+- How to implement a counting Bloom filter?
+
+**Exercise:** Implement a Bloom filter with support for insert and check. Experiment with different hash function counts.
+
+**My notes:**
+
 - 
